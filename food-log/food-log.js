@@ -52,7 +52,7 @@ displayUserInfo(userData);
 // Get the modal
 const modal = document.getElementById('myModal');
 // Get the <span> element that closes the modal
-const modalSpan = document.getElementsByClassName('close')[0];
+const modalSpan = document.getElementsByClassName('close');
 // When the user clicks on the button, open the modal
 window.addEventListener('load', () => {
     if (userData.logVisited) {
