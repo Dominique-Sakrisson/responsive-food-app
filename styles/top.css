@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -82,3 +84,130 @@ a.active, a:hover{
     50% { transform: scale(1.3); }
     100% { transform: scale(.8); } 
 } 
+
+/* Default styling here */
+
+/* //Little larger screen */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    nav {
+        text-align: left;
+        background: #0082e6;
+       
+        width: 100%;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        line-height: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    
+    nav ul li a{
+        
+        font-size: 12px;
+        
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    .logo{
+        display: none;
+    }
+    header img{
+        display: none;
+    }
+    #user-info-container{
+        float: none;
+        margin-top: 0px;
+        margin-right:0;
+        font-size:12px;
+        line-height: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+    }
+ }
+ 
+ /* // Pads and larger phones */
+ @media only screen and (min-width: 600px) and (max-width: 767px){
+    nav ul li{
+        display: inline-block;
+        line-height: 10px;
+        margin-top: 5%;
+        
+       
+        width: 100px;
+        float: left;
+    }
+    nav ul li a{
+        font-size: 12px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        padding: 0;
+    }
+    .logo{
+        display: none;
+    }
+    header img{
+        display: none;
+    }
+    #user-info-container{
+        float: none;
+        margin-top: 0px;
+        margin-right:0;
+        font-size:12px;
+        line-height: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+    }
+ }
+ 
+ /* // Larger pads */
+ @media only screen and (min-width: 768px) and (max-width: 991px){
+    #user-info-container{
+        float: none;
+        margin-top: 0px;
+        margin-right:0;
+        font-size:12px;
+        line-height: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+    }
+ }
+ 
+ /* // Horizontal pads and laptops */
+ @media only screen and (min-width: 992px ) and (max-width: 1381px) {
+    #user-info-container{
+        float: none;
+        margin-top: 0px;
+        margin-right:0;
+        font-size:12px;
+        line-height: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+    }
+ }
+ 
+ /* // Really large screens */
+ @media only screen and (min-width: 1382px) {
+     button {
+         color: red;
+     }
+     
+ }
+ 
+ /* // 2X size (iPhone 4 etc) */
+ @media only screen and 
+         (-webkit-min-device-pixel-ratio: 1.5), only screen and 
+         (-o-min-device-pixel-ratio: 3/2), only screen and 
+         (min-device-pixel-ratio: 1.5) {
+ 
+ }
